@@ -1,6 +1,6 @@
 if game.PlaceId == 10449761463 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText = "Zendo is my pookie", Name = "Zendo HUB - Welcome " .. game.Players.LocalPlayer.Name, HidePremium = false, SaveConfig = true, ConfigFolder = "KJ-HUB-CONFIG"})
+local Window = OrionLib:MakeWindow({IntroText = "GLORY HUB FOR TROLLING", Name = "Glory HUB - Welcome " .. game.Players.LocalPlayer.Name, HidePremium = false, SaveConfig = true, ConfigFolder = "GL-HUB-CONFIG"})
 local movement = Instance.new("BodyVelocity", game.Players.LocalPlayer.Character.HumanoidRootPart)
 
 local AnimationsTab = Window:MakeTab({
@@ -201,7 +201,7 @@ SpecialTab:AddButton({
 	Callback = function()
       	while wait(0.5) do
             game.Players.LocalPlayer.Character:SetAttribute("Character", "KJ")
-            game.Players.LocalPlayer.Character:SetAttribute("UltimateName", "20 SERIES")
+	    game.Players.LocalPlayer:SetAttribute("Character", "KJ")
             game.Players.LocalPlayer:SetAttribute("ExtraSlots", true)
             game.Players.LocalPlayer:SetAttribute("EmoteSearchBar", true)
         end
